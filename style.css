@@ -1,0 +1,50 @@
+.main {
+  font-size: 32px;
+  width: 100%;
+  min-width: 1400px;
+}
+
+img {
+  float: right;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.main-title {
+  font-size: 64px;
+  text-decoration: underline hsl(180, 49%, 42%);
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.section-title {
+  background-color: #afeeee;
+}
+
+.section-title1 {
+}
+
+.profile-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#profile {
+  height: 600px;
+}
+
+.section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+span {
+  background-color: #d6ecec;
+}
+
+#announcement {
+  padding-bottom: 100px;
+}
