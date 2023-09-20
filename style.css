@@ -4,7 +4,7 @@
   min-width: 1400px;
 }
 
-img {
+.img {
   float: right;
   width: 550px;
   height: 550px;
@@ -13,18 +13,15 @@ img {
   padding: 10px;
 }
 
-.main-title {
+.profile__title {
   font-size: 64px;
   text-decoration: underline hsl(180, 49%, 42%);
   padding-top: 100px;
   padding-bottom: 30px;
 }
 
-.section-title {
+.section__title {
   background-color: #afeeee;
-}
-
-.section-title1 {
 }
 
 .profile-list {
@@ -32,8 +29,14 @@ img {
   padding: 0;
 }
 
-#profile {
-  height: 600px;
+.profile-list__icon {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(180, 49%, 42%);
+}
+
+.profile {
+  min-height: 700px;
 }
 
 .section {
@@ -45,6 +48,6 @@ span {
   background-color: #d6ecec;
 }
 
-#announcement {
+.announcement {
   padding-bottom: 100px;
 }
